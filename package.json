@@ -1,0 +1,41 @@
+{
+  "name": "foalder",
+  "description": "Quick access to deep files from deep places",
+  "version": "0.2.0",
+  "homepage": "https://github.com/rogovdm/foalder",
+  "author": {
+    "name": "rogovdm",
+    "email": "rogov.dmitry@gmail.com",
+    "url": "http://rogovdm.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rogovdm/foalder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogovdm/foalder/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rogovdm/foalder/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "underscore": "~1.5.1"
+  }
+}
